@@ -1,40 +1,44 @@
 # Problem-Solving Index
 
-Solutions are organized by difficulty. Most problems include Python and Java implementations, examples, and complexity notes.
+Solutions are grouped by difficulty and include Python and Java implementations with example checks and complexity notes.
 
 ## Easy
 
-| Problem | Python | Java | Main concept |
+| Problem | Python | Java | Concept |
 | --- | --- | --- | --- |
-| Two Sum | [Solution](easy/two-sum.py) | [Solution](easy/TwoSum.java) | Hash map |
-| Valid Anagram | [Solution](easy/valid-anagram.py) | [Solution](easy/ValidAnagram.java) | Frequency counting |
-| First Non-Repeating Character | [Solution](easy/first-non-repeating-character.py) | [Solution](easy/FirstNonRepeatingCharacter.java) | Hash map |
-| Remove Duplicates | [Solution](easy/remove-duplicates.py) | [Solution](easy/RemoveDuplicates.java) | Set |
-| Valid Parentheses | [Solution](easy/valid-parentheses.py) | [Solution](easy/ValidParentheses.java) | Stack |
-| Binary Search | [Solution](easy/binary-search.py) | [Solution](easy/BinarySearch.java) | Binary search |
+| Two Sum | [Python](easy/two-sum.py) | [Java](easy/TwoSum.java) | Hash map |
+| Valid Anagram | [Python](easy/valid-anagram.py) | [Java](easy/ValidAnagram.java) | Frequency counting |
+| First Non-Repeating Character | [Python](easy/first-non-repeating-character.py) | [Java](easy/FirstNonRepeatingCharacter.java) | Hash map |
+| Remove Duplicates | [Python](easy/remove-duplicates.py) | [Java](easy/RemoveDuplicates.java) | Set |
+| Valid Parentheses | [Python](easy/valid-parentheses.py) | [Java](easy/ValidParentheses.java) | Stack |
+| Binary Search | [Python](easy/binary-search.py) | [Java](easy/BinarySearch.java) | Searching |
 
 ## Intermediate
 
-| Problem | Python | Java | Main concept |
+| Problem | Python | Java | Concept |
 | --- | --- | --- | --- |
-| Maximum Subarray Sum | [Solution](intermediate/maximum-subarray-sum.py) | [Solution](intermediate/MaximumSubarraySum.java) | Kadane's algorithm |
-| Longest Substring Without Repeating Characters | [Solution](intermediate/longest-substring-without-repeating.py) | [Solution](intermediate/LongestUniqueSubstring.java) | Sliding window |
-| Merge Intervals | [Solution](intermediate/merge-intervals.py) | [Solution](intermediate/MergeIntervals.java) | Sorting and intervals |
-| Special Substrings | [Solution](intermediate/special-substrings.py) | [Solution](intermediate/SpecialSubstrings.java) | String intervals |
+| Maximum Subarray Sum | [Python](intermediate/maximum-subarray-sum.py) | [Java](intermediate/MaximumSubarraySum.java) | Kadane's algorithm |
+| Longest Unique Substring | [Python](intermediate/longest-substring-without-repeating.py) | [Java](intermediate/LongestUniqueSubstring.java) | Sliding window |
+| Merge Intervals | [Python](intermediate/merge-intervals.py) | [Java](intermediate/MergeIntervals.java) | Sorting and intervals |
+| Special Substrings | [Python](intermediate/special-substrings.py) | [Java](intermediate/SpecialSubstrings.java) | String interval reasoning |
+| Two Sum on Sorted Input | [Python](intermediate/two-sum-sorted.py) | [Java](intermediate/TwoSumSorted.java) | Two pointers |
+| Product Except Self | [Python](intermediate/product-except-self.py) | [Java](intermediate/ProductExceptSelf.java) | Prefix and suffix products |
+| Valid Palindrome | [Python](intermediate/valid-palindrome.py) | [Java](intermediate/ValidPalindrome.java) | Two pointers |
 
-## Running examples
+## Run examples
 
-Python examples can be run directly, for example:
-
-```bash
-python problem-solving/easy/valid-anagram.py
-```
-
-Compile and run a Java example from the repository root:
+Python:
 
 ```bash
-javac problem-solving/easy/ValidAnagram.java
-java -cp problem-solving/easy ValidAnagram
+python problem-solving/intermediate/product-except-self.py
 ```
 
-The examples use assertions to check representative inputs and edge cases. Run them locally and extend the tests as you learn.
+Java, from the repository root:
+
+```bash
+mkdir -p build/java
+find problem-solving -name '*.java' -print0 | xargs -0 javac -d build/java
+java -cp build/java ProductExceptSelf
+```
+
+Python tests are in `tests/python/`. The GitHub Actions workflow compiles Java examples and runs their self-checks on pushes and pull requests to the main branch.
