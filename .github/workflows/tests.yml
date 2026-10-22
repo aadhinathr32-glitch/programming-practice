@@ -1,0 +1,55 @@
+name: Test Solutions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python-tests:
+    name: Python tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run tests
+        run: python -m pytest -v
+
+  java-tests:
+    name: Java example checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Compile solutions
+        run: |
+          mkdir -p build/java
+          find problem-solving -name '*.java' -print0 | xargs -0 javac -d build/java
+      - name: Run Java examples
+        run: |
+          java -cp build/java TwoSum
+          java -cp build/java ValidAnagram
+          java -cp build/java FirstNonRepeatingCharacter
+          java -cp build/java RemoveDuplicates
+          java -cp build/java ValidParentheses
+          java -cp build/java BinarySearch
+          java -cp build/java MaximumSubarraySum
+          java -cp build/java LongestUniqueSubstring
+          java -cp build/java MergeIntervals
+          java -cp build/java SpecialSubstrings
