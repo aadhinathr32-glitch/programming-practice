@@ -1,35 +1,35 @@
-
 # Programming Practice
 
 A growing collection of programming solutions, algorithm implementations, and problem-solving exercises using **Python** and **Java**.
 
-The goal of this repository is to develop strong programming fundamentals, understand efficient algorithms, and write clean, readable, and maintainable code.
+This repository focuses on building strong programming fundamentals, understanding efficient algorithms, and writing clean, readable, and maintainable code.
 
-## 🎯 Objectives
+## Objectives
 
 - Strengthen problem-solving and logical thinking.
 - Practise data structures and algorithms.
 - Understand time and space complexity.
 - Implement solutions in Python and Java.
-- Explore multiple approaches to the same problem.
-- Validate solutions with test cases and edge cases.
-- Maintain consistent coding and documentation practices.
+- Compare alternative approaches to a problem.
+- Validate solutions with tests and edge cases.
+- Develop consistent coding and documentation habits.
 
-## 💻 Languages
+## Languages and Tools
 
-| Language | Focus Areas |
+| Technology | Focus |
 | --- | --- |
 | Python | Fundamentals, collections, algorithms, problem-solving |
-| Java | Core Java, OOP, collections, algorithms, problem-solving |
+| Java | Core Java, object-oriented programming, collections, algorithms |
+| pytest | Testing Python solutions |
+| JUnit | Testing Java solutions |
+| Git and GitHub | Version control and documentation |
 
-## 📚 Topics Covered
+## Topics
 
 ### Programming Fundamentals
-- Variables, data types and operators
-- Conditional statements and loops
-- Functions and methods
-- Strings and arrays
-- Lists, sets and dictionaries/maps
+- Variables, data types, and operators
+- Conditionals, loops, functions, and methods
+- Strings, arrays, and collections
 - Exception handling
 - Object-oriented programming
 
@@ -42,26 +42,18 @@ The goal of this repository is to develop strong programming fundamentals, under
 - Heaps and priority queues
 - Graphs
 
-### Algorithms
+### Algorithms and Patterns
 - Sorting and searching
 - Two pointers
 - Sliding window
 - Prefix sums
+- Frequency counting
 - Recursion and backtracking
 - Greedy algorithms
 - Tree and graph traversal
 - Dynamic programming
 
-### Problem-Solving Concepts
-- Frequency counting
-- Duplicate detection
-- Substring and subarray problems
-- Input validation
-- Boundary conditions and edge cases
-- Time and space complexity
-- Test-driven problem validation
-
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 programming-practice/
@@ -71,7 +63,6 @@ programming-practice/
 │   ├── strings/
 │   ├── arrays/
 │   ├── hashmaps-and-sets/
-│   ├── recursion/
 │   ├── data-structures/
 │   └── algorithms/
 ├── java/
@@ -94,27 +85,17 @@ programming-practice/
     └── algorithm-patterns.md
 ```
 
-## 🧪 Solution Standards
+## Solution Standards
 
-Each substantial problem should include:
+For each substantial problem, I aim to include:
 
-1. **Problem:** A concise explanation of the task.
-2. **Approach:** The reasoning behind the solution.
-3. **Implementation:** Readable, well-structured code.
-4. **Complexity:** Time and space complexity.
-5. **Test cases:** Normal inputs, boundary cases and edge cases.
+1. **Problem statement** — what needs to be solved.
+2. **Approach** — the reasoning behind the solution.
+3. **Implementation** — clear, well-structured code.
+4. **Complexity analysis** — time and auxiliary space.
+5. **Tests** — normal inputs, boundaries, and edge cases.
 
-Example:
-
-| Case | Input | Expected Output |
-| --- | --- | --- |
-| Normal | `[1, 2, 3]` | Problem-specific result |
-| Empty | `[]` | Defined edge-case result |
-| Duplicate values | `[2, 2, 3]` | Problem-specific result |
-
-Expected outputs depend on the problem being implemented.
-
-## 📈 Progress
+## Progress Checklist
 
 - [ ] Programming fundamentals
 - [ ] Strings and arrays
@@ -125,26 +106,15 @@ Expected outputs depend on the problem being implemented.
 - [ ] Recursion and backtracking
 - [ ] Trees and graphs
 - [ ] Dynamic programming
-- [ ] Python and Java implementations
-- [ ] Automated tests for selected solutions
+- [ ] Implement selected problems in both Python and Java
+- [ ] Add automated tests for selected solutions
 
-Progress will be updated as topics are completed.
+Progress is updated as topics and implementations are completed.
 
-## 🛠️ Tools
+## Philosophy
 
-- Python
-- Java
-- Git and GitHub
-- Visual Studio Code
-- JUnit for Java testing
-- pytest for Python testing
-
-## 🌱 Philosophy
-
-Learn the fundamentals, understand the reasoning, compare approaches, test edge cases, and improve the implementation.
-
-This repository documents an ongoing journey toward writing better software through consistent practice.
+Learn the fundamentals, understand the reasoning, compare approaches, test edge cases, and refine the implementation. This repository documents an ongoing journey toward writing better software through deliberate practice.
 
 ---
 
-**Maintained by [Aadhinath R](https://github.com/aadhinathr32-glitch)**
+Maintained by [Aadhinath R](https://github.com/aadhinathr32-glitch)
