@@ -27,6 +27,7 @@ The following exercises are currently available in both Python and Java.
 | Number Greater Than 100 | [Python](python/fundamentals/number-greater-than-100.py) | [Java](java/fundamentals/NumberGreaterThan100.java) | If statement |
 | Even or Odd | [Python](python/fundamentals/even-or-odd.py) | [Java](java/fundamentals/EvenOrOdd.java) | Modulo, if-else |
 | Positive, Negative, or Zero | [Python](python/fundamentals/positive-negative-or-zero.py) | [Java](java/fundamentals/PositiveNegativeOrZero.java) | If-elif-else / if-else-if |
+| Positive, Negative, or Zero (Conditional Expression) | [Python](python/fundamentals/positive-negative-or-zero-conditional-expression.py) | [Java](java/fundamentals/PositiveNegativeOrZeroConditionalExpression.java) | Nested if, ternary / conditional operator |
 | Pass or Fail | [Python](python/fundamentals/pass-or-fail.py) | [Java](java/fundamentals/PassOrFail.java) | Logical AND, comparison operators |
 | Accept or Reject | [Python](python/fundamentals/accept-or-reject.py) | [Java](java/fundamentals/AcceptOrReject.java) | Logical OR |
 | Eligibility Check | [Python](python/fundamentals/eligibility-check.py) | [Java](java/fundamentals/EligibilityCheck.java) | Combined AND / OR conditions |
