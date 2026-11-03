@@ -1,57 +1,49 @@
 # Programming Practice
 
-A growing collection of programming solutions, algorithm implementations, and problem-solving exercises using **Python** and **Java**.
+A collection of programming fundamentals, problem-solving exercises, and algorithm implementations in **Python** and **Java**. Each exercise is maintained in both languages where applicable, with a focus on understanding the logic and writing clear, readable code.
 
-This repository focuses on building strong programming fundamentals, understanding efficient algorithms, and writing clean, readable, and maintainable code.
+## Languages
 
-## Objectives
+| Language | Focus |
+|---|---|
+| Python | Programming fundamentals, problem-solving, algorithms |
+| Java | Core Java, programming fundamentals, problem-solving, algorithms |
 
-- Strengthen problem-solving and logical thinking.
-- Practise data structures and algorithms.
-- Understand time and space complexity.
-- Implement solutions in Python and Java.
-- Compare alternative approaches to a problem.
-- Validate solutions with tests and edge cases.
-- Develop consistent coding and documentation habits.
+## Programming Fundamentals
 
-## Languages and Tools
+The following exercises are currently available in both Python and Java.
 
-| Technology | Focus |
-| --- | --- |
-| Python | Fundamentals, collections, algorithms, problem-solving |
-| Java | Core Java, object-oriented programming, collections, algorithms |
-| pytest | Testing Python solutions |
-| JUnit | Testing Java solutions |
-| Git and GitHub | Version control and documentation |
+| Topic | Python | Java | Concepts |
+|---|---|---|---|
+| Reverse a Number | [Python](python/fundamentals/reverse-number.py) | [Java](java/fundamentals/ReverseNumber.java) | Loops, modulo, integer division, sign handling |
+| Palindrome Number | [Python](python/fundamentals/palindrome-number.py) | [Java](java/fundamentals/PalindromeNumber.java) | Number reversal, comparison |
+| Count Digits | [Python](python/fundamentals/count-digits.py) | [Java](java/fundamentals/CountDigits.java) | Loops, counters, integer division |
+| Count Digits Using Absolute Value | [Python](python/fundamentals/count-digits-using-absolute-value.py) | [Java](java/fundamentals/CountDigitsUsingAbsoluteValue.java) | Absolute value, loops, counters |
+| Sum of Digits | [Python](python/fundamentals/sum-of-digits.py) | [Java](java/fundamentals/SumOfDigits.java) | Modulo, integer division, accumulation |
+| Count Even and Odd Digits | [Python](python/fundamentals/count-even-odd-digits.py) | [Java](java/fundamentals/CountEvenOddDigits.java) | Digit extraction, conditions, counters |
+| Largest Digit | [Python](python/fundamentals/largest-digit.py) | [Java](java/fundamentals/LargestDigit.java) | Digit extraction, comparison |
+| Smallest Digit | [Python](python/fundamentals/smallest-digit.py) | [Java](java/fundamentals/SmallestDigit.java) | Digit extraction, comparison |
+| Prime Number | [Python](python/fundamentals/prime-number.py) | [Java](java/fundamentals/PrimeNumber.java) | Loops, divisibility, break / early return |
+| Number Greater Than 100 | [Python](python/fundamentals/number-greater-than-100.py) | [Java](java/fundamentals/NumberGreaterThan100.java) | If statement |
+| Even or Odd | [Python](python/fundamentals/even-or-odd.py) | [Java](java/fundamentals/EvenOrOdd.java) | Modulo, if-else |
+| Positive, Negative, or Zero | [Python](python/fundamentals/positive-negative-or-zero.py) | [Java](java/fundamentals/PositiveNegativeOrZero.java) | If-elif-else / if-else-if |
+| Pass or Fail | [Python](python/fundamentals/pass-or-fail.py) | [Java](java/fundamentals/PassOrFail.java) | Logical AND, comparison operators |
+| Accept or Reject | [Python](python/fundamentals/accept-or-reject.py) | [Java](java/fundamentals/AcceptOrReject.java) | Logical OR |
+| Eligibility Check | [Python](python/fundamentals/eligibility-check.py) | [Java](java/fundamentals/EligibilityCheck.java) | Combined AND / OR conditions |
+| Eligibility Check with Lowercase Conversion | [Python](python/fundamentals/eligibility-check-lowercase.py) | [Java](java/fundamentals/EligibilityCheckLowercase.java) | String case conversion, logical operators |
+| Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
 
-## Topics
+## Problem Solving
 
-### Programming Fundamentals
-- Variables, data types, and operators
-- Conditionals, loops, functions, and methods
-- Strings, arrays, and collections
-- Exception handling
-- Object-oriented programming
+Algorithm and data-structure problems are organized by difficulty, with Python and Java implementations where available.
 
-### Data Structures
-- Arrays and strings
-- Hash maps and sets
-- Linked lists
-- Stacks and queues
-- Trees and binary search trees
-- Heaps and priority queues
-- Graphs
+See the [Problem-Solving Index](problem-solving/README.md) for the complete list of problems and direct links to their solutions.
 
-### Algorithms and Patterns
-- Sorting and searching
-- Two pointers
-- Sliding window
-- Prefix sums
-- Frequency counting
-- Recursion and backtracking
-- Greedy algorithms
-- Tree and graph traversal
-- Dynamic programming
+| Difficulty | Focus |
+|---|---|
+| [Easy](problem-solving/easy/) | Core problem-solving patterns and fundamentals |
+| [Intermediate](problem-solving/intermediate/) | Arrays, strings, hashing, two pointers, sliding window, and more |
+| [Advanced](problem-solving/advanced/) | More complex algorithms and data structures |
 
 ## Repository Structure
 
@@ -59,61 +51,104 @@ This repository focuses on building strong programming fundamentals, understandi
 programming-practice/
 ├── README.md
 ├── python/
-│   ├── fundamentals/
-│   ├── strings/
-│   ├── arrays/
-│   ├── hashmaps-and-sets/
-│   ├── data-structures/
-│   └── algorithms/
+│   └── fundamentals/
 ├── java/
-│   ├── fundamentals/
-│   ├── strings/
-│   ├── arrays/
-│   ├── collections/
-│   ├── data-structures/
-│   └── algorithms/
+│   └── fundamentals/
 ├── problem-solving/
+│   ├── README.md
 │   ├── easy/
 │   ├── intermediate/
 │   └── advanced/
 ├── tests/
 │   ├── python/
 │   └── java/
-└── notes/
-    ├── complexity-analysis.md
-    ├── data-structures.md
-    └── algorithm-patterns.md
+├── notes/
+│   └── complexity-analysis.md
+└── requirements-dev.txt
 ```
 
-## Solution Standards
+## How to Run
 
-For each substantial problem, I aim to include:
+### Python
 
-1. **Problem statement** — what needs to be solved.
-2. **Approach** — the reasoning behind the solution.
-3. **Implementation** — clear, well-structured code.
-4. **Complexity analysis** — time and auxiliary space.
-5. **Tests** — normal inputs, boundaries, and edge cases.
+Run a Python exercise from the repository root:
 
-## Progress Checklist
+```bash
+python python/fundamentals/prime-number.py
+```
 
-- [ ] Programming fundamentals
-- [ ] Strings and arrays
-- [ ] Hashing and frequency counting
-- [ ] Searching and sorting
-- [ ] Two pointers and sliding window
-- [ ] Stacks and queues
-- [ ] Recursion and backtracking
-- [ ] Trees and graphs
-- [ ] Dynamic programming
-- [ ] Implement selected problems in both Python and Java
-- [ ] Add automated tests for selected solutions
+Replace the filename with the exercise you want to run. Python 3.10 or newer is recommended.
 
-Progress is updated as topics and implementations are completed.
+### Java
 
-## Philosophy
+Compile and run a Java exercise from the repository root:
 
-Learn the fundamentals, understand the reasoning, compare approaches, test edge cases, and refine the implementation. This repository documents an ongoing journey toward writing better software through deliberate practice.
+```bash
+javac java/fundamentals/PrimeNumber.java
+java -cp java/fundamentals PrimeNumber
+```
+
+Replace `PrimeNumber` with the class name you want to run. A JDK is required.
+
+## Concepts Covered
+
+### Number-based Problems
+- Digit extraction using modulo (`% 10`)
+- Removing the last digit using integer division (`// 10` in Python, `/ 10` in Java)
+- Reversing numbers
+- Palindrome checks
+- Counting and summing digits
+- Finding the largest and smallest digit
+- Counting even and odd digits
+- Prime number checks
+- Handling negative numbers and zero
+
+### Conditional Logic
+- `if`, `elif`, and `else`
+- Nested conditions
+- Comparison operators
+- Logical AND and OR
+- String case conversion
+- Input validation and decision-making
+
+### Problem-Solving Patterns
+- Arrays and strings
+- Hash maps and sets
+- Sorting and searching
+- Two pointers and sliding window
+- Stacks and queues
+- Recursion and backtracking
+- Trees and graphs
+- Dynamic programming
+
+## Solution Approach
+
+For each exercise, the goal is to:
+1. Understand the problem and expected output.
+2. Break the logic into simple steps.
+3. Implement the solution using user input rather than hardcoded test values.
+4. Handle important edge cases, including zero and negative values where relevant.
+5. Keep the Python and Java implementations aligned in behavior.
+
+## Testing
+
+Python solution tests are maintained under [tests/python](tests/python/). The repository also includes a GitHub Actions workflow for automated checks.
+
+Install the development dependency with:
+
+```bash
+python -m pip install -r requirements-dev.txt
+```
+
+Run the Python tests with:
+
+```bash
+python -m pytest
+```
+
+## Progress
+
+This repository is updated as new exercises are completed. Each new fundamentals exercise should be added to both language folders where applicable and listed in the table above. Problem-solving additions should also be reflected in the [Problem-Solving Index](problem-solving/README.md).
 
 ---
 
