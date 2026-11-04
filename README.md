@@ -34,6 +34,7 @@ The following exercises are currently available in both Python and Java.
 | Accept or Reject | [Python](python/fundamentals/accept-or-reject.py) | [Java](java/fundamentals/AcceptOrReject.java) | Logical OR |
 | Eligibility Check | [Python](python/fundamentals/eligibility-check.py) | [Java](java/fundamentals/EligibilityCheck.java) | Combined AND / OR conditions |
 | Eligibility Check with Lowercase Conversion | [Python](python/fundamentals/eligibility-check-lowercase.py) | [Java](java/fundamentals/EligibilityCheckLowercase.java) | String case conversion, logical operators |
+| Customer Category Check | [Python](python/fundamentals/customer-category-check.py) | [Java](java/fundamentals/CustomerCategoryCheck.java) | Input validation, numeric thresholds, string case conversion, logical OR |
 | Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
 | Withdrawal Multiple of 100 | [Python](python/fundamentals/withdrawal-multiple-of-100.py) | [Java](java/fundamentals/WithdrawalMultipleOf100.java) | Nested if-else, balance checks, modulo, denomination validation |
 
