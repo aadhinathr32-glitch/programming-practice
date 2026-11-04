@@ -37,6 +37,7 @@ The following exercises are currently available in both Python and Java.
 | Customer Category Check | [Python](python/fundamentals/customer-category-check.py) | [Java](java/fundamentals/CustomerCategoryCheck.java) | Input validation, numeric thresholds, string case conversion, logical OR |
 | Electricity Consumption Category | [Python](python/fundamentals/electricity-consumption-category.py) | [Java](java/fundamentals/ElectricityConsumptionCategory.java) | Range checks, comparison operators, if-elif-else / if-else-if |
 | Divisibility by 3 and 5 | [Python](python/fundamentals/divisibility-by-three-and-five.py) | [Java](java/fundamentals/DivisibilityByThreeAndFive.java) | Modulo operator, logical AND, conditional statements |
+| Login Validation | [Python](python/fundamentals/login-validation.py) | [Java](java/fundamentals/LoginValidation.java) | String case conversion, string comparison, logical AND, conditional statements |
 | Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
 | Withdrawal Multiple of 100 | [Python](python/fundamentals/withdrawal-multiple-of-100.py) | [Java](java/fundamentals/WithdrawalMultipleOf100.java) | Nested if-else, balance checks, modulo, denomination validation |
 
