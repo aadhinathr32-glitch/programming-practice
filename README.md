@@ -45,6 +45,7 @@ The following exercises are currently available in both Python and Java.
 | Purchase Discount | [Python](python/fundamentals/purchase-discount.py) | [Java](java/fundamentals/PurchaseDiscount.java) | Nested conditions, string case conversion, discount calculation, input validation |
 | Compare Two Numbers | [Python](python/fundamentals/compare-two-numbers.py) | [Java](java/fundamentals/CompareTwoNumbers.java) | Equality comparison, ternary / nested if-else, comparison operators |
 | Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
+| Withdrawal Balance Validation | [Python](python/fundamentals/withdrawal-balance-validation.py) | [Java](java/fundamentals/WithdrawalBalanceValidation.java) | Nested conditionals, balance validation, input validation |
 | Withdrawal Multiple of 100 | [Python](python/fundamentals/withdrawal-multiple-of-100.py) | [Java](java/fundamentals/WithdrawalMultipleOf100.java) | Nested if-else, balance checks, modulo, denomination validation |
 
 ## Problem Solving
