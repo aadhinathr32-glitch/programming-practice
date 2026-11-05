@@ -41,6 +41,7 @@ The following exercises are currently available in both Python and Java.
 | Triangle Validity | [Python](python/fundamentals/triangle-validity.py) | [Java](java/fundamentals/TriangleValidity.java) | Triangle inequality, positive-value validation, logical AND, conditional statements |
 | Leap Year Check | [Python](python/fundamentals/leap-year-check.py) | [Java](java/fundamentals/LeapYearCheck.java) | Modulo operator, divisibility rules, if-elif-else / if-else-if |
 | Salary Bonus Calculation | [Python](python/fundamentals/salary-bonus-calculation.py) | [Java](java/fundamentals/SalaryBonusCalculation.java) | Nested if-else, validation, logical OR, percentage calculation |
+| Middle Number | [Python](python/fundamentals/middle-number.py) | [Java](java/fundamentals/MiddleNumber.java) | Comparison operators, logical OR, conditional statements |
 | Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
 | Withdrawal Multiple of 100 | [Python](python/fundamentals/withdrawal-multiple-of-100.py) | [Java](java/fundamentals/WithdrawalMultipleOf100.java) | Nested if-else, balance checks, modulo, denomination validation |
 
