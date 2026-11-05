@@ -45,6 +45,7 @@ The following exercises are currently available in both Python and Java.
 | Purchase Discount | [Python](python/fundamentals/purchase-discount.py) | [Java](java/fundamentals/PurchaseDiscount.java) | Nested conditions, string case conversion, discount calculation, input validation |
 | Compare Two Numbers | [Python](python/fundamentals/compare-two-numbers.py) | [Java](java/fundamentals/CompareTwoNumbers.java) | Equality comparison, ternary / nested if-else, comparison operators |
 | Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
+| Multiplication Table | [Python](python/fundamentals/multiplication-table.py) | [Java](java/fundamentals/MultiplicationTable.java) | for loop, multiplication, iteration, user input |
 | Print Odd Numbers 1 to N | [Python](python/fundamentals/print-odd-numbers-1-to-n.py) | [Java](java/fundamentals/PrintOddNumbers1ToN.java) | for loop, range step, odd numbers, iteration |
 | Print Even Numbers 1 to N | [Python](python/fundamentals/print-even-numbers-1-to-n.py) | [Java](java/fundamentals/PrintEvenNumbers1ToN.java) | for loop, modulus operator, even numbers, user input |
 | Print Numbers 1 to N | [Python](python/fundamentals/print-numbers-1-to-n.py) | [Java](java/fundamentals/PrintNumbers1ToN.java) | for loop, ranges, iteration, user input |
