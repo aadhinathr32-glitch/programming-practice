@@ -45,6 +45,11 @@ The following exercises are currently available in both Python and Java.
 | Purchase Discount | [Python](python/fundamentals/purchase-discount.py) | [Java](java/fundamentals/PurchaseDiscount.java) | Nested conditions, string case conversion, discount calculation, input validation |
 | Compare Two Numbers | [Python](python/fundamentals/compare-two-numbers.py) | [Java](java/fundamentals/CompareTwoNumbers.java) | Equality comparison, ternary / nested if-else, comparison operators |
 | Withdrawal Validation | [Python](python/fundamentals/withdrawal-validation.py) | [Java](java/fundamentals/WithdrawalValidation.java) | Nested if-else, validation, comparison |
+| Factorial of a Number | [Python](python/fundamentals/factorial-of-number.py) | [Java](java/fundamentals/FactorialOfNumber.java) | for loop, accumulator, factorial, input validation |
+| Fibonacci Series | [Python](python/fundamentals/fibonacci-series.py) | [Java](java/fundamentals/FibonacciSeries.java) | loops, variables, sequence generation, iteration |
+| Sum of Even Numbers 1 to N | [Python](python/fundamentals/sum-of-even-numbers-1-to-n.py) | [Java](java/fundamentals/SumOfEvenNumbers1ToN.java) | for loop, range step, accumulator, even numbers |
+| GCD of Two Numbers | [Python](python/fundamentals/gcd-of-two-numbers.py) | [Java](java/fundamentals/GCDOfTwoNumbers.java) | while loop, modulus, Euclidean algorithm, absolute value |
+| LCM of Two Numbers | [Python](python/fundamentals/lcm-of-two-numbers.py) | [Java](java/fundamentals/LCMOfTwoNumbers.java) | while loop, modulus, GCD, arithmetic |
 | Sum of N Numbers | [Python](python/fundamentals/sum-of-n-numbers.py) | [Java](java/fundamentals/SumOfNNumbers.java) | for loop, accumulator, arithmetic, user input |
 | Multiplication Table | [Python](python/fundamentals/multiplication-table.py) | [Java](java/fundamentals/MultiplicationTable.java) | for loop, multiplication, iteration, user input |
 | Print Odd Numbers 1 to N | [Python](python/fundamentals/print-odd-numbers-1-to-n.py) | [Java](java/fundamentals/PrintOddNumbers1ToN.java) | for loop, range step, odd numbers, iteration |
