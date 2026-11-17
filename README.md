@@ -18,6 +18,7 @@ The following exercises are currently available in both Python and Java.
 | Reverse a Number | [Python](python/fundamentals/reverse-number.py) | [Java](java/fundamentals/ReverseNumber.java) | Loops, modulo, integer division, sign handling |
 | Palindrome Number | [Python](python/fundamentals/palindrome-number.py) | [Java](java/fundamentals/PalindromeNumber.java) | Number reversal, comparison |
 | Count Digits | [Python](python/fundamentals/count-digits.py) | [Java](java/fundamentals/CountDigits.java) | Loops, counters, integer division |
+| Armstrong Number | [Python](python/fundamentals/armstrong-number.py) | [Java](java/fundamentals/ArmstrongNumber.java) | while loop, digit extraction, powers, Armstrong number |
 | Palindrome Using While Loop | [Python](python/fundamentals/palindrome-using-while-loop.py) | [Java](java/fundamentals/PalindromeUsingWhileLoop.java) | while loop, modulus, integer division, palindrome check |
 | Reverse Number Using While Loop | [Python](python/fundamentals/reverse-number-using-while-loop.py) | [Java](java/fundamentals/ReverseNumberUsingWhileLoop.java) | while loop, modulus, integer division, digit manipulation |
 | Count Digits Using While Loop | [Python](python/fundamentals/count-digits-using-while-loop.py) | [Java](java/fundamentals/CountDigitsUsingWhileLoop.java) | while loop, integer division, absolute value, digit counting |
