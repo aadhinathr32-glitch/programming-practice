@@ -22,6 +22,7 @@ The following exercises are currently available in both Python and Java.
 | Perfect Number | [Python](python/fundamentals/perfect-number.py) | [Java](java/fundamentals/PerfectNumber.java) | for loop, factors, divisibility, perfect number |
 | Strong Number | [Python](python/fundamentals/strong-number.py) | [Java](java/fundamentals/StrongNumber.java) | nested loops, factorial, digit extraction, Strong number |
 | Prime Factors | [Python](python/fundamentals/prime-factors.py) | [Java](java/fundamentals/PrimeFactors.java) | nested while loops, factors, divisibility, prime factorization |
+| Decimal to Binary | [Python](python/fundamentals/decimal-to-binary.py) | [Java](java/fundamentals/DecimalToBinary.java) | while loop, division, remainder, number-system conversion |
 | Palindrome Using While Loop | [Python](python/fundamentals/palindrome-using-while-loop.py) | [Java](java/fundamentals/PalindromeUsingWhileLoop.java) | while loop, modulus, integer division, palindrome check |
 | Reverse Number Using While Loop | [Python](python/fundamentals/reverse-number-using-while-loop.py) | [Java](java/fundamentals/ReverseNumberUsingWhileLoop.java) | while loop, modulus, integer division, digit manipulation |
 | Count Digits Using While Loop | [Python](python/fundamentals/count-digits-using-while-loop.py) | [Java](java/fundamentals/CountDigitsUsingWhileLoop.java) | while loop, integer division, absolute value, digit counting |
