@@ -15,6 +15,7 @@ The following exercises are currently available in both Python and Java.
 
 | Topic | Python | Java | Concepts |
 |---|---|---|---|
+| Minimum Increments to Make Array Increasing | [Python](python/fundamentals/minimum-increments-to-make-array-increasing.py) | [Java](java/fundamentals/MinimumIncrementsToMakeArrayIncreasing.java) | Greedy, arrays, loops, cumulative increments |
 | Reverse a Number | [Python](python/fundamentals/reverse-number.py) | [Java](java/fundamentals/ReverseNumber.java) | Loops, modulo, integer division, sign handling |
 | Palindrome Number | [Python](python/fundamentals/palindrome-number.py) | [Java](java/fundamentals/PalindromeNumber.java) | Number reversal, comparison |
 | Count Digits | [Python](python/fundamentals/count-digits.py) | [Java](java/fundamentals/CountDigits.java) | Loops, counters, integer division |
