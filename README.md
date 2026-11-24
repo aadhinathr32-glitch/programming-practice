@@ -69,6 +69,13 @@ The following exercises are currently available in both Python and Java.
 
 ## Problem Solving
 
+### Easy Problems
+
+| Topic | Python | Java | Concepts |
+|---|---|---|---|
+| Two Sum Using Set | [Python](python/problem-solving/easy/two-sum-using-set.py) | [Java](java/problem-solving/easy/TwoSumUsingSet.java) | Arrays, hashing, sets, complement lookup, O(n) |
+
+
 Algorithm and data-structure problems are organized by difficulty, with Python and Java implementations where available.
 
 See the [Problem-Solving Index](problem-solving/README.md) for the complete list of problems and direct links to their solutions.
